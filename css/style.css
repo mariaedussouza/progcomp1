@@ -1,7 +1,7 @@
 body{
     /* fonte do texto */
     font-family: Arial, sans-serif;
-    background-color: cyan;
+    background-color: rgb(85, 75, 175);
     /* usa modelo FlexBox, conceito de caixa para posicionamento */
     display: flex;
     justify-content: center; /* centraliza na horizontal */
@@ -17,7 +17,7 @@ body{
     box-shadow: 0 4px 8px ; /* sombra */
 }
 button {
-    background-color: blue;
+    background-color: rgb(204, 165, 191);
     color: white; 
     border: none;
     /* 10 abaixo e 10 acima e 20 esquerda e 20 direita */
@@ -25,7 +25,7 @@ button {
 }
 /* ao passar o mouse em cima do botão */
 button:hover {
-    background-color:red;
+    background-color:rgb(175, 75, 145);
 
 }
 
